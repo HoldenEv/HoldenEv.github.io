@@ -81,10 +81,61 @@ h1 {
 
 #resume-main {
   margin-top: 3%;
-  
   width: 90%;
   border-radius: 10px;
   margin-left: 5%;
+}
+
+#main-contact {
+  margin-top: 5%;
+  width: 70%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+#contact-form {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
+  padding-left: 3%;
+  padding-top: 2%;
+}
+
+#submit {
+  height: 30px;
+  width: 80px;
+  color: white;
+  background-color: #1f3e74;
+  border-style: solid;
+  border-color: white;
+  border-radius: 7px;
+  margin-bottom: 1.5%;  
+}
+
+#submit:hover {
+  color: black;
+  background-color: white;
+}
+
+#submit:active {
+  color: black;
+  background-color: #54b3d6;
 }
 
 .footer {
