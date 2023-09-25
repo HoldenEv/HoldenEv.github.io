@@ -138,6 +138,11 @@ textarea {
   background-color: #54b3d6;
 }
 
+.contact-images {
+  width: 7%;
+  height: 7%;
+}
+
 .footer {
   display: flex;
   justify-content: center;
