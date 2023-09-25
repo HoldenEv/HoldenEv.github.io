@@ -23,7 +23,7 @@
       Send Me A Message!
     </div>
 
-    <form id="contact-form">
+    <form id="contact-form" onsubmit="sendMessage(); reset(); return fasle;">
       <label for="name">Name: </label>
       <input type="text" id="name">
       <label for="email">Email: </label>
@@ -61,8 +61,7 @@
     </div>
 
   </main>
-  <footer class="footer">
-  
-  </footer>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
