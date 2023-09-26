@@ -1,8 +1,8 @@
 function sendMessage(){
   Email.send({
     SecureToken: "4fb58e12-ebfd-4b5d-9010-a152f4b1e400",
-    To : 'holdenevers@gmail.com',
-    From : document.getElementById("email").value,
+    To : document.getElementById("email").value,
+    From : 'holdenevers@gmail.com',
     Subject : "New Contact Form Enquiry",
     Body : "Name: " + document.getElementById("name").value 
           + "<br> Email: " + document.getElementById("email").value 
