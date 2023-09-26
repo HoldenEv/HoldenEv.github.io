@@ -144,6 +144,22 @@ textarea {
   height: 7%;
 }
 
+.project-details {
+  border-style: solid;
+  border-color: white;
+  border-radius: 15px;
+}
+
+.project { 
+  text-align: center;
+  padding-top: 5%;
+}
+
+.project-name {
+  font-size: 30px;
+  font-style: italic;
+}
+
 .footer {
   display: flex;
   justify-content: center;
