@@ -1,0 +1,23 @@
+{
+  "name": "holdenev.github.io",
+  "version": "1.0.0",
+  "description": "This is created using the hackforimpact started project <hopfully future enployers will be able to see this and gain a better understanding of me.> [Visit it Here!](https://HoldenEv.github.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoldenEv/HoldenEv.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoldenEv/HoldenEv.github.io/issues"
+  },
+  "homepage": "https://github.com/HoldenEv/HoldenEv.github.io#readme",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
